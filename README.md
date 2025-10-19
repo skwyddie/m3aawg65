@@ -1,6 +1,6 @@
 # M3AAWG 65 — Links & References
 
-A curated collection of resources, analyses, research and demos related to the **Model Context Protocol (MCP)**, agent-to-agent attacks, and related security topics discussed during M3AAWG 65.
+A curated collection of resources, analyses, research and demos related to the **Model Context Protocol (MCP)**, agent-to-agent attacks, and related security topics discussed during M3AAWG 65. These refer to the original research with embedded demos.
 
 > NOTE: This repository is a link directory only. Follow each linked resource for origin, context and full details.
 
@@ -14,8 +14,6 @@ A curated collection of resources, analyses, research and demos related to the *
 - [Scanners & Discovery Tools](#scanners--discovery-tools)
 - [Best practices & Security Guides](#best-practices--security-guides)
 - [Videos & Presentations](#videos--presentations)
-- [Contributing](#contributing)
-- [License & Credits](#license--credits)
 
 ---
 
@@ -61,6 +59,9 @@ A curated collection of resources, analyses, research and demos related to the *
   Technical exploration of how MCP tool parameters can be abused and examples of attack vectors.  
   https://hiddenlayer.com/innovation-hub/exploiting-mcp-tool-parameters/
 
+- **Knostic — finding MCP servers with Shodan**  
+  Blog post showing how MCP servers can be discovered via Shodan and why exposed servers are risky.  
+  https://www.knostic.ai/blog/find-mcp-server-shodan
 ---
 
 ## Demos & Code Repositories
@@ -75,29 +76,25 @@ A curated collection of resources, analyses, research and demos related to the *
   - Repo: https://github.com/harishsg993010/damn-vulnerable-MCP-server  
   - Demo video: https://www.youtube.com/watch?v=4BI7VWfDVQE
 
-- **`LLMmap` — mapping LLM/agent behaviors**  
-  Repository for LLM mapping/analysis tools relevant to attack surface exploration and taxonomy.  
-  https://github.com/pasquini-dario/LLMmap
-
 - **`demo-malicous-mcp-server` (alternate)**  
   Another demo implementation used in presentations illustrating malicious MCP servers.  
   https://github.com/alejandro-ao/demo-malicous-mcp-server
+
+- **Glama — MCP vulnerable server demo (hosted example)**  
+  Hosted demo instance demonstrating a deliberately vulnerable MCP server for study and testing.  
+  https://glama.ai/mcp/servers/@kenhuangus/mcp-vulnerable-server-demo
 
 ---
 
 ## Scanners & Discovery Tools
 
-- **Knostic — finding MCP servers with Shodan**  
-  Blog post showing how MCP servers can be discovered via Shodan and why exposed servers are risky.  
-  https://www.knostic.ai/blog/find-mcp-server-shodan
-
 - **Knostic — MCP-Scanner**  
   Open-source scanner to detect MCP server instances and quickly assess exposure.  
   https://github.com/knostic/MCP-Scanner
 
-- **Glama — MCP vulnerable server demo (hosted example)**  
-  Hosted demo instance demonstrating a deliberately vulnerable MCP server for study and testing.  
-  https://glama.ai/mcp/servers/@kenhuangus/mcp-vulnerable-server-demo
+- **`LLMmap` — mapping LLM/agent behaviors**  
+  Repository for LLM mapping/analysis tools relevant to attack surface exploration and taxonomy.  
+  https://github.com/pasquini-dario/LLMmap
 
 ---
 
@@ -117,7 +114,7 @@ A curated collection of resources, analyses, research and demos related to the *
 
 ---
 
-## Videos & Presentations
+## Additional Videos & Presentations
 
 - **Presentation: MCP / security demo (YouTube)**  
   Recorded talk/demonstration relevant to MCP attack modes and defensive considerations.  

@@ -112,6 +112,10 @@ A curated collection of resources, analyses, research and demos related to the *
   A blog post describing a SAFE framework (security-minded approach) for tooling/agent interactions.  
   https://www.sandipanhaldar.com/blog/safe_framework
 
+- **Detailed Security and Enterprise Readiness Report: Cursor AI IDE**
+  A threat model/analysis of Cursor.
+  https://harini.blog/2025/05/07/detailed-security-and-enterprise-readiness-report-cursor-ai-ide/
+
 ---
 
 ## Additional Videos & Presentations

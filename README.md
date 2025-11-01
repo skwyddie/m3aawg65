@@ -96,6 +96,9 @@ A curated collection of resources, analyses, research and demos related to the *
   Repository for LLM mapping/analysis tools relevant to attack surface exploration and taxonomy.  
   https://github.com/pasquini-dario/LLMmap
 
+- **Cisco - MCP-Scanner**
+  https://github.com/cisco-ai-defense/mcp-scanner
+
 ---
 
 ## Best practices & Security Guides
